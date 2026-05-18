@@ -1,0 +1,51 @@
+{
+  "name": "shopify",
+  "owner": {
+    "name": "Shopify"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/shopify-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "shopify-admin-api",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-admin-api.git"
+      }
+    },
+    {
+      "name": "shopify-app-bridge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-app-bridge.git"
+      }
+    },
+    {
+      "name": "shopify-billing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-billing.git"
+      }
+    },
+    {
+      "name": "shopify-functions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-functions.git"
+      }
+    },
+    {
+      "name": "shopify-storefront-api",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-storefront-api.git"
+      }
+    },
+    {
+      "name": "shopify-webhooks",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-webhooks.git"
+      }
+    }
+  ]
+}
